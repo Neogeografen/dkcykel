@@ -22,7 +22,8 @@
 # osmconvert64 cykelimport.pbf cykelimport1.pbf -o=cykelmerge.pbf 
 #
 # Import kommando til PostGreSQL i et skema der hedder openstreetmap - husk at oprette skema først før import - husk kopier næste to linjer
-# osmfilter dkvej.o5m --keep="cycleway OR cycleway:right OR cycleway:left OR cycleway:both OR cycleway:both:lane OR cycleway:right:lane" --drop="cycleway=no # OR cycleway=yes OR cycleway=none OR cycleway:both=none OR cycleway:both=no"  >cykelimport1.pbf 
+# osmfilter dkvej.o5m --keep="cycleway OR cycleway:right OR cycleway:left OR cycleway:both OR cycleway:both:lane OR cycleway:right:lane" --drop="cycleway=no 
+# OR cycleway=yes OR cycleway=none OR cycleway:both=none OR cycleway:both=no"  >cykelimport1.pbf 
 # 
 # 
 # Læs mere om importparametre https://osm2pgsql.org/doc/manual.html#command-line-options
