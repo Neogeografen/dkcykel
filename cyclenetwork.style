@@ -120,22 +120,23 @@
 # Her er kolonnerne der bliver lavet i PostGreSQL for hhv. linjer og punkter
 # OsmType  Tag          DataType     Flags
 node,way   highway      text         linear
-node,way   surface      text         linear
+way        surface      text         linear
 node,way   barrier      text         linear
-node,way   width        text         linear
-node,way   lit          text         linear
+way        width        text         linear
+way        lit          text         linear
 node,way   bicycle      text         linear
 node,way   cycleway     text         linear
 node,way   foot         text         linear
-node,way   oneway       text         linear
-node,way   bridge       text         linear
-node,way   tunnel       text         linear
+way        oneway       text         linear
+way        bridge       text         linear
+way        tunnel       text         linear
 node,way   crossing     text         linear
-node,way   ramp:bicycle text         linear
+way        segregated   text         linear
+way        ramp:bicycle text         linear
 node,way   traffic_signals text      linear
-node,way   incline      text         linear
-node,way   step_count   text         linear
-node,way   name         text         linear
+way        incline      text         linear
+way        step_count   text         linear
+way 	   name         text         linear
 node,way   z_order      int4         linear # This is calculated during import
 
 
