@@ -22,7 +22,7 @@
 # osmconvert64 cykelimport.pbf cykelimport1.pbf -o=cykelmerge.pbf 
 #
 # Import kommando til PostGreSQL i et skema der hedder openstreetmap - husk at oprette skema først før import - 
-# osm2pgsql -c -p cykeldata_osm -m -d postgres -U postgres -H localhost --output-pgsql-schema=openstreetmap -W -S  C:\osm\cyclenetwork.style  C:\osm\cykelmerge.pbf 
+# osm2pgsql -c -p cykeldata_osm -m -d postgres -U postgres -H localhost -output-pgsql-schema=openstreetmap -W -S  C:\osm\cyclenetwork.style  C:\osm\cykelmerge.pbf 
 # 
 # 
 # Læs mere om importparametre https://osm2pgsql.org/doc/manual.html#command-line-options
